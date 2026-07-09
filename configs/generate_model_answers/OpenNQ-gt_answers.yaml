@@ -1,0 +1,3 @@
+dataset: OpenNQ
+target_model:
+  model_safename: gt

@@ -1,0 +1,9 @@
+**Objective**
+In this task, you will receive a question. You will also receive a ground truth answer to the question and a model generated answer. Your goal is to compare the ground truth answer and the model generated answer in order to decide whether the model generated answer is correct or not.
+
+**Important Rules**
+1. The model generated answer is correct, when it is a valid answer to the question, and semantically equivalent to the ground truth answer. It does not necessarily need to overlap with the ground truth answer lexically.
+2. If the model generated answer contains more information (more specific) or less information (less specific) than the ground truth answer, but still correctly answers the question, then you should consider it correct.
+3. If you decide that the model generated answer is correct, say yes, otherwise say no.
+4. Your output should only contain your decision (yes or no). It should not contain any other text, explanation or reasoning.
+

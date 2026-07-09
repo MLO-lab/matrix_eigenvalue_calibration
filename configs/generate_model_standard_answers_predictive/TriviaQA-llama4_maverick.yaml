@@ -1,0 +1,15 @@
+dataset: TriviaQA
+target_model:
+  model_safename: llama4_maverick
+  config: 
+    model_type: groq-batch
+    model_name: meta-llama/llama-4-maverick-17b-128e-instruct
+  generation_config:
+    max_completion_tokens: 200 
+    temperature: 0.1 #Important since standard answer
+  generate_function_parameters:
+    verbose_inputs: True
+    verbose_outputs: True
+  generate_function_kwargs: 
+    batch_size: 1000 #TODO test
+  random_seed: 42

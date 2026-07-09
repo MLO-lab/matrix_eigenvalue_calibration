@@ -1,0 +1,7 @@
+dataset: TriviaQA_2k #todo check 2k or not
+ensembling_method: no_ensembling
+target_model:
+  model_safename: llama4_maverick
+uncertainty_metric: kle
+# sampling_temperature_index todo
+

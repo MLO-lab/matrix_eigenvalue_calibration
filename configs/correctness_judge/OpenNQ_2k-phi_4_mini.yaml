@@ -1,0 +1,17 @@
+dataset: OpenNQ_2k
+target_model: 
+  model_safename: phi_4_mini
+correctness_judge: all
+correctness_judge_model:
+  model_safename: gpt_4.1 
+  config: 
+    model_type: openai
+    model_name: gpt-4.1-2025-04-14 
+  generation_config:
+    max_completion_tokens: 10
+    temperature: 0
+  generate_function_parameters:
+    verbose_inputs: True
+    verbose_outputs: True
+  generate_function_kwargs: 
+    max_workers: 50 #TODO make a fast calculation to see if good or not.

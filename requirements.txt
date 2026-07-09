@@ -1,0 +1,43 @@
+# Minimal pip requirements to run this repo (notebooks + scripts).
+# If you use conda, prefer `environment.yml` instead.
+#
+# GPU users: install the CUDA build of torch matching your driver from
+# https://pytorch.org/get-started/locally/ *before* installing this file,
+# e.g. `pip install torch --index-url https://download.pytorch.org/whl/cu128`
+
+# numerical / data science
+numpy>=2.2
+pandas>=2.2
+scipy>=1.15
+scikit-learn>=1.6
+threadpoolctl>=3.5
+networkx>=3.4
+hdbscan>=0.8.39
+qutip>=5.2
+
+# plotting
+matplotlib>=3.10
+seaborn>=0.13
+
+# deep learning / NLP
+torch>=2.7
+transformers>=4.48
+sentence-transformers>=3.4
+datasets>=3.3
+accelerate>=1.4
+
+# LLM API clients
+openai>=1.72
+openrouter>=0.9
+
+# misc utilities
+pyyaml>=6.0
+tqdm>=4.67
+webencodings>=0.5.1
+coolname>=2.2
+evaluate>=0.4.3
+rouge_score>=0.1.2
+
+# to run the analysis notebooks
+jupyterlab>=4.3
+ipykernel>=6.29

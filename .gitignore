@@ -1,0 +1,12 @@
+experiment_logs
+.env
+.vscode/
+.ipynb_checkpoints
+*.err
+*.out
+data/
+glove.6B/
+results/
+*.log
+*.pyc
+.nfs*

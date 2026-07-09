@@ -1,0 +1,12 @@
+dataset: OpenNQ
+ensembling_method: no_ensembling
+target_model:
+  model_safename: llama4_maverick
+embedding_model:
+  model_safename: all_mpnet_base_v2
+  model_name: all-mpnet-base-v2
+  batch_size: 40000
+  encoding_arguments:
+    batch_size: 256
+    convert_to_numpy: true
+    convert_to_tensor: false

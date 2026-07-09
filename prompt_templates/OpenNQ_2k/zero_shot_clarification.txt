@@ -1,0 +1,17 @@
+**Objective**
+In this task, you will receive a question. Your goal is to generate multiple versions of the question that convey the same meaning as the original one. 
+
+**Important Rules**
+1. Ensure that each rephrasing of the question is distinct from the others.
+2. Ensure that all rephrasings of the question are semantically equivalent to the original question.
+3. Provide 5 different rephrasings of the question.
+
+**Output Format**
+Your output should follow this format:
+### Rephrasings:
+#1 [Your rephrased question] 
+#2 [Another rephrased question] 
+#3 [Yet another rephrased question] 
+#4 [A fourth rephrasing of the question]
+#5 [A fifth rephrasing of the question]
+ 

@@ -1,0 +1,3 @@
+dataset: TriviaQA_2k
+target_model:
+  model_safename: gt

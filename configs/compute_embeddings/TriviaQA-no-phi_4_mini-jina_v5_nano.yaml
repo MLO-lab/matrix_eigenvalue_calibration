@@ -1,0 +1,9 @@
+dataset: TriviaQA
+ensembling_method: no_ensembling
+target_model:
+  model_safename: phi_4_mini
+embedding_model:
+  model_safename: "jina_v5_nano"
+  model_name: "jina-embeddings-v5-text-nano"
+  batch_size: 256
+  encoding_arguments: {}

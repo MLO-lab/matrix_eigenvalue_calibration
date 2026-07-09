@@ -1,0 +1,2 @@
+dataset: TriviaQA_2k
+ensembling_method: no_ensembling

@@ -1,0 +1,17 @@
+dataset: TriviaQA
+ensembling_method: no_ensembling
+target_model:
+  model_safename: llama4_maverick
+  config: 
+    model_type: groq-batch
+    model_name: meta-llama/llama-4-maverick-17b-128e-instruct
+  generation_config:
+    max_completion_tokens: 100 
+    temperature: 0.5
+  generate_function_parameters:
+    verbose_inputs: True
+    verbose_outputs: True
+  generate_function_kwargs: 
+    batch_size: 1000
+  random_seed: 42
+answer_per_variant: 100

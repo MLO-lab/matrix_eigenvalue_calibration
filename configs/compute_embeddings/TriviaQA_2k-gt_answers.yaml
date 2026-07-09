@@ -1,0 +1,11 @@
+dataset: TriviaQA_2k
+target_model:
+  model_safename: gt
+embedding_model:
+  model_safename: all_mpnet_base_v2
+  model_name: all-mpnet-base-v2
+  batch_size: 40000
+  encoding_arguments:
+    batch_size: 256
+    convert_to_numpy: true
+    convert_to_tensor: false

@@ -1,0 +1,32 @@
+The following are trivia questions with a proposed answer each. Your task is to evaluate whether the proposed answer is correct. Respond with only True or False.
+
+Question: Who won the 1953 Nobel Prize in Literature?
+Proposed Answer: Winston Churchill
+Is the proposed answer correct?
+Answer: True
+
+Question: What is the chemical symbol for gold?
+Proposed Answer: Ag
+Is the proposed answer correct?
+Answer: False
+
+Question: In what year was the Eiffel Tower completed?
+Proposed Answer: 1889
+Is the proposed answer correct?
+Answer: True
+
+Question: Which country is credited with inventing the printing press?
+Proposed Answer: England
+Is the proposed answer correct?
+Answer: False
+
+Question: What is the longest river in the world?
+Proposed Answer: Nile
+Is the proposed answer correct?
+Answer: True
+
+Question: Who was the first person to walk on the Moon?
+Proposed Answer: Buzz Aldrin
+Is the proposed answer correct?
+Answer: False
+

@@ -1,0 +1,19 @@
+dataset: OpenNQ
+ensembling_method: no_ensembling
+target_model:
+  model_safename: phi_4
+  config: 
+    model_type: hf
+    model_name: microsoft/phi-4
+  generation_config:
+    max_new_tokens: 100 
+    temperature: 0.5
+    top_p: 0.95
+    do_sample: True
+  generate_function_parameters:
+    verbose_inputs: True
+    verbose_outputs: True
+  generate_function_kwargs: 
+    batch_size: 5 #TODO test
+  random_seed: 42
+answer_per_variant: 100

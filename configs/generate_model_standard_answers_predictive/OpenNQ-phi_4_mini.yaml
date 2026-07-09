@@ -1,0 +1,16 @@
+dataset: OpenNQ
+target_model:
+  model_safename: phi_4_mini
+  config: 
+    model_type: hf
+    model_name: microsoft/Phi-4-mini-instruct
+  generation_config:
+    max_new_tokens: 100 
+    temperature: 0.1 #Important since standard answer
+    do_sample: True
+  generate_function_parameters:
+    verbose_inputs: True
+    verbose_outputs: True
+  generate_function_kwargs: 
+    batch_size: 10 #TODO test
+  random_seed: 42

@@ -1,0 +1,6 @@
+dataset: TriviaQA_2k #todo check 2k or not
+ensembling_method: no_ensembling
+target_model:
+  model_safename: phi_4_mini
+uncertainty_metric: kle
+# sampling_temperature_index todo

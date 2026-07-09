@@ -1,0 +1,32 @@
+The following are questions with a proposed answer each. Your task is to evaluate whether the proposed answer is correct. Respond with only True or False.
+
+Question: What is the name of the largest ocean on Earth?
+Proposed Answer: Pacific Ocean
+Is the proposed answer correct?
+Answer: True
+
+Question: Who wrote the novel Pride and Prejudice?
+Proposed Answer: Charlotte Bronte
+Is the proposed answer correct?
+Answer: False
+
+Question: How many bones are in the adult human body?
+Proposed Answer: 206
+Is the proposed answer correct?
+Answer: True
+
+Question: What is the capital of Canada?
+Proposed Answer: Toronto
+Is the proposed answer correct?
+Answer: False
+
+Question: Which element has the atomic number 1?
+Proposed Answer: Hydrogen
+Is the proposed answer correct?
+Answer: True
+
+Question: What year did the First World War begin?
+Proposed Answer: 1918
+Is the proposed answer correct?
+Answer: False
+

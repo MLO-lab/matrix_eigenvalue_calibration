@@ -1,0 +1,8 @@
+dataset: TriviaQA
+target_model:
+  model_safename: gt
+embedding_model:
+  model_safename: "jina_v5_nano"
+  model_name: "jina-embeddings-v5-text-nano"
+  batch_size: 256
+  encoding_arguments: {}
