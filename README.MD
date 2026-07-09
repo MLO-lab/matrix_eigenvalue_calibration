@@ -58,4 +58,4 @@ Before you run the respective cells with real-world experiments in the notebook,
 Either manually download from the link in the following, or install `conda install -c conda-forge gdown`.
 Then, to download the zipped LLM answers, run `gdown https://drive.google.com/uc?id=1PZmFnbQuLqr_WGxpASPugeM4IzpAoHjY`.
 
-To extract them into the folder `data` run `unzip data.zip -d data`.
+To extract them into the folder `data`, run `unzip data.zip -d .`.
